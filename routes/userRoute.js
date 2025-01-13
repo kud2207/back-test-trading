@@ -9,7 +9,7 @@ const loginRoute = express.Router()
 loginRoute.post("/login", loginUser);
 loginRoute.get("/user", getUserAlpaca);
 loginRoute.get("/maketActif", actifMaket);
-
+ 
 //actif
 loginRoute.post("/addactif", creerCollectionAlpaca);
 loginRoute.get("/affActif", getUserAcrif);
